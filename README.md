@@ -34,8 +34,12 @@ The zip from [GitHub releases](https://github.com/lasse-tech/wherewith/releases)
 - Minimap icon: click toggles the window, right-click opens the options
 - Vendor view: right-click a vendor header to forget that vendor (asks first)
 
+## Support
+
+[Buy me a coffee](https://buymeacoffee.com/gossardla)
+
 ## Licence
 © 2026 lasse tech, Lars Gossard — <lars@lasse-tech.de>
 
-[GNU Affero General Public License v3.0 or later](LICENSE). The embedded libraries
+[MIT](LICENSE). The embedded libraries
 (LibStub, CallbackHandler-1.0, LibDataBroker-1.1, LibDBIcon-1.0) keep their own licences.

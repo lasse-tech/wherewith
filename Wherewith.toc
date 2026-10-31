@@ -3,11 +3,12 @@
 ## Notes: Shows what your currencies and tokens buy, and where: every offer of the vendors you have visited, with what you can afford right now.
 ## Notes-deDE: Zeigt, was du mit deinen Währungen und Marken kaufen kannst und wo: alle Angebote der Händler, die du besucht hast, und was du dir gerade leisten kannst.
 ## Author: Lars Gossard
-## Version: 0.1.0
+## Version: 0.1.1
 ## X-Email: lars@lasse-tech.de
-## X-Website: https://www.lasse-tech.de
+## X-Website: https://github.com/lasse-tech/wherewith
+## X-Donate: https://buymeacoffee.com/gossardla
 ## X-Copyright: 2026 lasse tech, Lars Gossard
-## X-License: AGPL-3.0-or-later
+## X-License: MIT
 ## SavedVariables: WherewithDB
 ## IconTexture: Interface\AddOns\Wherewith\Media\Wherewith
 ## AddonCompartmentFunc: Wherewith_OnAddonCompartmentClick
