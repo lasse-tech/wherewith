@@ -1,0 +1,5 @@
+<Bindings>
+    <Binding name="WHEREWITH_TOGGLE" category="BINDING_CATEGORY_WHEREWITH">
+        Wherewith_Binding()
+    </Binding>
+</Bindings>

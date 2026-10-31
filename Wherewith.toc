@@ -1,0 +1,37 @@
+## Interface: 120100
+## Title: Wherewith
+## Notes: Shows what your currencies and tokens buy, and where: every offer of the vendors you have visited, with what you can afford right now.
+## Notes-deDE: Zeigt, was du mit deinen Währungen und Marken kaufen kannst und wo: alle Angebote der Händler, die du besucht hast, und was du dir gerade leisten kannst.
+## Author: Lars Gossard
+## Version: 0.1.0
+## X-Email: lars@lasse-tech.de
+## X-Website: https://www.lasse-tech.de
+## X-Copyright: 2026 lasse tech, Lars Gossard
+## X-License: AGPL-3.0-or-later
+## SavedVariables: WherewithDB
+## IconTexture: Interface\AddOns\Wherewith\Media\Wherewith
+## AddonCompartmentFunc: Wherewith_OnAddonCompartmentClick
+
+embeds.xml
+
+Locales\Locale.lua
+Locales\enUS.lua
+Locales\deDE.lua
+
+Core\Addon.lua
+Core\Database.lua
+Core\Wallet.lua
+Core\Merchant.lua
+Core\Journal.lua
+Core\Offers.lua
+Core\Waypoint.lua
+Core\Tooltip.lua
+Core\Core.lua
+
+UI\Common.lua
+UI\Layout.lua
+UI\Window.lua
+UI\Options.lua
+UI\Options.xml
+
+Skin\ElvUI.lua

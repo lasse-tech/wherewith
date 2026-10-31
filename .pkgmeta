@@ -1,0 +1,35 @@
+package-as: Wherewith
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+externals:
+  Libs/LibStub:
+    url: https://repos.curseforge.com/wow/libstub/trunk
+    tag: latest
+  Libs/CallbackHandler-1.0:
+    url: https://repos.curseforge.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+  # CurseForge's SVN mirror answers HTTP 500
+  Libs/LibDataBroker-1.1:
+    url: https://github.com/tekkub/libdatabroker-1-1
+  Libs/LibDBIcon-1.0:
+    url: https://repos.curseforge.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
+
+move-folders:
+  Wherewith/Wherewith: Wherewith
+
+ignore:
+  - design
+  - tools
+  - README.md
+  - CLAUDE.md
+  - Makefile
+  - Makefile.bat
+  - tests
+  - .luacheckrc
+  - Libs/README.md
+  - Media/README.md
+  - Libs/LibStub/tests
+  - Libs/LibStub/LibStub.toc
+  - Libs/LibDataBroker-1.1/README.textile
