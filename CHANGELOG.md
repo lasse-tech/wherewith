@@ -2,6 +2,20 @@
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [0.2.0] - 2026-11-06
+
+### Added
+- `make uninstall-forever` removes the addon from the Forever client
+- World of Warcraft: Forever: `Wherewith_Camelot.toc` (interface 16001);
+  `make install-forever`
+
+### Changed
+- Retail interface 120105 (12.1.5)
+- Shift-click links through `ChatFrameUtil.InsertLink` (`ChatEdit_InsertLink` is deprecated)
+- `Makefile.bat` no longer asks before replacing or deleting
+
 ## [0.1.1] - 2026-10-31
 
 ### Changed

@@ -1,9 +1,9 @@
-## Interface: 120100
+## Interface: 120105
 ## Title: Wherewith
 ## Notes: Shows what your currencies and tokens buy, and where: every offer of the vendors you have visited, with what you can afford right now.
 ## Notes-deDE: Zeigt, was du mit deinen Währungen und Marken kaufen kannst und wo: alle Angebote der Händler, die du besucht hast, und was du dir gerade leisten kannst.
 ## Author: Lars Gossard
-## Version: 0.1.1
+## Version: 0.2.0
 ## X-Email: lars@lasse-tech.de
 ## X-Website: https://github.com/lasse-tech/wherewith
 ## X-Donate: https://buymeacoffee.com/gossardla

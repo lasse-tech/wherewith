@@ -21,6 +21,7 @@ move-folders:
 
 ignore:
   - design
+  - brand
   - tools
   - README.md
   - CLAUDE.md

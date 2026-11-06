@@ -1,6 +1,7 @@
 # Wherewith
 
-World of Warcraft addon (Midnight, retail): what your currencies and tokens buy, and where.
+World of Warcraft addon (Midnight, retail, and World of Warcraft: Forever): what your currencies
+and tokens buy, and where.
 
 ## Features
 - **Learns vendors**: open a vendor once and every offer that costs a currency or an item is
@@ -26,7 +27,9 @@ World of Warcraft addon (Midnight, retail): what your currencies and tokens buy,
 
 ## Installation
 The zip from [GitHub releases](https://github.com/lasse-tech/wherewith/releases) unpacked into
-`World of Warcraft/_retail_/Interface/AddOns`.
+`World of Warcraft/_retail_/Interface/AddOns` or `World of Warcraft/_forever_/Interface/AddOns`.
+The folder carries `Wherewith.toc` (retail) and `Wherewith_Camelot.toc` (Forever, interface
+16001); `make install-forever` installs into Forever.
 
 ## Usage
 - `/ww` toggles the window, `/ww <text>` opens it with a search

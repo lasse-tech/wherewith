@@ -87,7 +87,7 @@ local function offerClick(offer)
     return function()
         if IsShiftKeyDown() or Addon.ShiftDown() then
             local link = offerLink(offer)
-            if link then ChatEdit_InsertLink(link) end
+            if link then ChatFrameUtil.InsertLink(link) end
         elseif IsControlKeyDown() then
             if offer.kind == "mount" then
                 if DressUpMount then DressUpMount(offer.id) end
@@ -229,7 +229,7 @@ local function drawByCurrency(list, searching)
                 onClick = function()
                     if IsShiftKeyDown() or Addon.ShiftDown() then
                         local link = Wallet.Link(c.kind, c.id)
-                        if link then ChatEdit_InsertLink(link) end
+                        if link then ChatFrameUtil.InsertLink(link) end
                     end
                 end,
             })
